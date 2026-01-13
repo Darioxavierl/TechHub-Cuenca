@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub Cuenca - Comunidad TTN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin: 3rem 0;
+        }
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌐 TechHub Cuenca</h1>
+        <p>Comunidad The Things Network - Ecuador</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Sobre Nuestra Comunidad</h2>
+            <div class="card">
+                <p>
+                    TechHub Cuenca es una comunidad dedicada a promover el Internet de las Cosas (IoT) 
+                    y la tecnología LoRaWAN en Cuenca, Ecuador. Formamos parte de The Things Network, 
+                    una red global de comunidades que construyen infraestructura IoT abierta y gratuita.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Nuestra Misión</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🚀 Innovación</h3>
+                    <p>Impulsar proyectos IoT innovadores en nuestra región</p>
+                </div>
+                <div class="card">
+                    <h3>📚 Educación</h3>
+                    <p>Compartir conocimiento sobre tecnologías LoRaWAN y TTN</p>
+                </div>
+                <div class="card">
+                    <h3>🤝 Colaboración</h3>
+                    <p>Construir una red comunitaria abierta y accesible</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Cobertura</h2>
+            <div class="card">
+                <h3>📍 Ubicación</h3>
+                <p><strong>Ciudad:</strong> Cuenca</p>
+                <p><strong>País:</strong> Ecuador</p>
+                <p><strong>Estado:</strong> En desarrollo</p>
+                <p style="margin-top: 1rem;">
+                    Estamos estableciendo gateways LoRaWAN para proporcionar cobertura 
+                    en la ciudad de Cuenca y sus alrededores.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Únete a Nosotros</h2>
+            <div class="card">
+                <h3>¿Interesado en IoT y LoRaWAN?</h3>
+                <p>
+                    Buscamos desarrolladores, makers, estudiantes y entusiastas de la tecnología 
+                    que quieran contribuir al crecimiento de nuestra red.
+                </p>
+                <a href="mailto:contact@techhubcuenca.com" class="btn">Contactar</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Recursos</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔗 Enlaces Útiles</h3>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><a href="https://www.thethingsnetwork.org/" target="_blank">The Things Network</a></li>
+                        <li><a href="https://console.thethingsnetwork.org/" target="_blank">TTN Console</a></li>
+                        <li><a href="https://github.com/Darioxavierl/TechHub-Cuenca" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TechHub Cuenca - Parte de The Things Network</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">
+            Construyendo el futuro del IoT en Ecuador 🇪�
+        </p>
+    </footer>
+</body>
+</html>
